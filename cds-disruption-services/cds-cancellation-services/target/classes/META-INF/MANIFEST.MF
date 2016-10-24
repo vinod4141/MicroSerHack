@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: cds-cancellation-services
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Vinod
+Implementation-Vendor-Id: com.emirates.cds
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/cds-disrupti
+ on-services/cds-cancellation-services/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

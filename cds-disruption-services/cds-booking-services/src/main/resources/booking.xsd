@@ -1,0 +1,54 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": true,
+            "properties":{
+               "flighno":{
+                             "type": "integer",
+                              "id": "http://jsonschema.net/flightno",
+                              "required": true,
+                              "format":"UTC"
+                          },
+                      "pnr":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/pnr",
+                              "required": true
+                        },
+                         "tripid":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/pnr",
+                              "required": false
+                        },
+                        "passenger":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/passenger",
+                              "required": true
+                        },
+                        "airport":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/airport",
+                              "required": true,
+                              "format":"gpscoordinates"
+                        },
+                        "destination":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/destination",
+                              "required": true,
+                              "format":"gpscoordinates",
+                              "description":"pick up/drop off point"
+                        },
+                        "noofbaggages":{
+                              "type": "integer",
+                              "id": "http://jsonschema.net/noofbaggages",
+                              "required": true
+                        },
+                       "pickuptime":{
+                             "type": "string",
+                              "id": "http://jsonschema.net/noofpax",
+                              "required": true,
+                              "format":"UTC"
+                          }
+                         
+             }
+}

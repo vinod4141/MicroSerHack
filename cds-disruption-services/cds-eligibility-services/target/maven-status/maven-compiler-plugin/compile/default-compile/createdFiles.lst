@@ -1,0 +1,7 @@
+com\emirates\cds\eligibility\EligibilityController.class
+com\emirates\cds\eligibility\json\Eligibility.class
+com\emirates\cds\eligibility\dao\EligibilityDAO.class
+com\emirates\cds\eligibility\Application.class
+com\emirates\cds\eligibility\model\Eligibility.class
+com\emirates\cds\eligibility\model\EligibilityResponse.class
+com\emirates\cds\eligibility\service\EligibilityService.class

@@ -1,0 +1,5 @@
+com\emirates\cds\disruption\model\Disruption.class
+com\emirates\cds\disruption\services\DisruptionService.class
+com\emirates\cds\distruption\Application.class
+com\emirates\cds\distruption\DisruptionController.class
+com\emirates\cds\disruption\model\DisruptionResponse.class

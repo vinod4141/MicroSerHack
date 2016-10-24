@@ -1,0 +1,8 @@
+com\emirates\cds\vehicle\dao\VehicleDAO.class
+com\emirates\cds\vehicle\json\Vehicles.class
+com\emirates\cds\vehicle\model\Vehicles.class
+com\emirates\cds\vehicle\services\VehicleService.class
+com\emirates\cds\vehicle\model\VehicleResponse.class
+com\emirates\cds\vehicle\model\VehicleMaster.class
+com\emirates\cds\vehicle\VehicleController.class
+com\emirates\cds\vehicle\Application.class

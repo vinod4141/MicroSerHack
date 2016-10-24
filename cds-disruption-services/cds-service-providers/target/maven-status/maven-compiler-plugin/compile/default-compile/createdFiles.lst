@@ -1,0 +1,6 @@
+com\emirates\cds\serviceprovider\model\ServiceProvidersResponse.class
+com\emirates\cds\serviceprovider\Application.class
+com\emirates\cds\serviceprovider\model\ServiceProvider.class
+com\emirates\cds\serviceprovider\services\ServiceProviderService.class
+com\emirates\cds\serviceprovider\dao\ServiceProviderDAO.class
+com\emirates\cds\serviceprovider\ServiceProviderController.class

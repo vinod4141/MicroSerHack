@@ -1,0 +1,52 @@
+{  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": true,
+            "properties":{
+                       "vehicleno":{
+                        "description": "Save the vehicles",
+                             "type": "string",
+                              "id": "http://jsonschema.net/flightno",
+                              "required": true
+                            },
+                      "serviceproviderid":{
+                             "type": "string",
+                              "id": "http://jsonschema.net/flightno",
+                              "required": true
+                            },                            
+                      "pnr":{
+                              "type": "Array",
+                              "id": "http://jsonschema.net/pnr",
+                              "required": true
+                        },
+                     "leadpassenger":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/passenger",
+                              "required": true
+                        },
+                        "pickup":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/airport",
+                              "required": true,
+                              "format":"gpscoordinates"
+                        },
+                        "destination":{
+                              "type": "string",
+                              "id": "http://jsonschema.net/destination",
+                              "required": true,
+                              "format":"gpscoordinates",
+                              "description":"pick up/drop otff point"
+                        },
+                        "noofbaggages":{
+                              "type": "integer",
+                              "id": "http://jsonschema.net/noofbaggages",
+                              "required": true
+                        },
+                        "noofpassenger":{
+                              "type": "integer",
+                              "id": "http://jsonschema.net/noofpassenger",
+                              "required": true
+                        }
+                         
+             }
+}
