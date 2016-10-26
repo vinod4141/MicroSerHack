@@ -9,8 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import com.emirates.cds.login.UserDetail;
-import com.emirates.cds.login.dao.LoginDAO;
+
 
 /**
  * @author Vinod
@@ -18,13 +17,13 @@ import com.emirates.cds.login.dao.LoginDAO;
  */
 public class BookingService {
 	
-	public boolean verifyLogin( String userName, String password){
+	/*public boolean verifyLogin( String userName, String password){
 		
 		CanellationDAO dao = new CanellationDAO();
 		boolean isAuth = false;
 		Properties properties = new Properties();
 		UserDetail user = null;
-		/*try{
+		try{
 			ClassLoader classLoader = getClass().getClassLoader();
 			File file = new File(classLoader.getResource("user.properties").getFile());
 			InputStream in = new FileInputStream(file);
@@ -32,7 +31,7 @@ public class BookingService {
 			
 		} catch (IOException iox){
 			iox.printStackTrace();
-		}*/
+		}
 		try {
 			user = dao.getUserDetail(userName);
 		} catch (Exception e) {
@@ -45,15 +44,15 @@ public class BookingService {
 				isAuth = true;
 			}
 		}
-		/*if(userName != null && password != null){
+		if(userName != null && password != null){
 			if(properties.containsKey(userName)){
 				if(properties.getProperty(userName).equalsIgnoreCase(password)){
 					isAuth = true;
 				}
 			}
-		}*/
+		}
 		return isAuth;
-	}
+	}*/
 	
 	/*public static void main(String args[]){
 		LoginService serv = new LoginService();
