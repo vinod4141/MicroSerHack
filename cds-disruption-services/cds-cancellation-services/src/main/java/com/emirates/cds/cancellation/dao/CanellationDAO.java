@@ -21,7 +21,6 @@ import com.amazonaws.services.dynamodbv2.model.ComparisonOperator;
 import com.amazonaws.services.dynamodbv2.model.Condition;
 import com.amazonaws.services.dynamodbv2.model.ScanRequest;
 import com.amazonaws.services.dynamodbv2.model.ScanResult;
-import com.emirates.cds.login.UserDetail;
 
 /**
  * @author Vinod
@@ -32,7 +31,7 @@ public class CanellationDAO {
 
 	private static AmazonDynamoDBClient dynamoDB;
 
-	public UserDetail getUserDetail(String name) throws Exception{
+	/*public UserDetail getUserDetail(String name) throws Exception{
 		setClient();
 		UserDetail user = new UserDetail();
 		user.setUserName(name);
@@ -76,7 +75,7 @@ public class CanellationDAO {
 		
 		return user;
 	}
-
+*/
 	private void setClient() throws Exception {
 		/*
 		 * The ProfileCredentialsProvider will return your [default] credential
