@@ -4,6 +4,7 @@
     <groupId>com.emirates.cds</groupId>
     <artifactId>cds-disruption-services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>cds-pax-services</artifactId>
 </project>
